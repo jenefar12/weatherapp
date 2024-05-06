@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./white-cloud-blue-sky.jpg);
+}
+
+.form{
+  
+  display: flex;
+  justify-content: center;
+}
+input{
+  padding: 7aaas1121px;
+  margin: 10px;
+  width: 70%;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: rgba(241, 199, 199, 0.2);
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.details{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.icon{
+  font-size: 80px;
+}
+span{
+  padding: 15px;
+}
+.location{
+  text-align: center;
+}
